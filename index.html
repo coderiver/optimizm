@@ -10,13 +10,692 @@
 	<link rel="stylesheet" media="all" href="css/screen.css" >
 	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
-<body>
+<body onload="initialize()">
 <!-- BEGIN  out-->
 <div class="out">
-
+	<header class="header fixed-element">
+		<div class="inner">
+			<a href="#" class="logo"><img src="img/svg/logo.svg" alt=""></a>
+			<nav class="nav">
+				<ul>
+					<li><a href="#">ОБ УСЛУГЕ</a></li>
+					<li><a href="#">КЕЙСЫ И ДОСТИЖЕНИЯ</a></li>
+					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+			<button class="btn-call js-popup-open">заказать звонок</button>
+		</div>
+	</header>
+	<section class="section">
+		<!-- begin promotion  -->
+		<div class="heading is-one">
+			<span class="title">ПРОДВИГАЙТЕ СВОЙ САЙТ, ОПЛАЧИВАЯ ТОЛЬКО РЕЗУЛЬТАТ</span>
+		</div>
+		<div class="promotion visibility">
+			<div class="inner">
+				<div class="diagram">
+					<div class="d-piece d-piece1"></div>
+					<div class="d-piece d-piece2"></div>
+					<div class="d-piece d-piece3"></div>
+				</div>
+				<div class="slider cycle-slideshow"
+					data-cycle-fx="fade" 
+					data-cycle-timeout="10000"
+					data-cycle-slides="> .slide"
+					data-cycle-pager=".slider__pager">
+					<div class="columns">
+						<div class="c-col c-col1"></div>
+						<div class="c-col c-col2"></div>
+						<div class="c-col c-col3"></div>
+						<div class="c-col c-col4"></div>
+						<div class="c-col c-col5"></div>
+						<div class="c-col c-col6"></div>
+						<div class="c-col c-col7"></div>
+						<div class="c-col c-col6"></div>
+						<div class="c-col c-col5"></div>
+						<div class="c-col c-col4"></div>
+						<div class="c-col c-col3"></div>
+						<div class="c-col c-col2"></div>
+						<div class="c-col c-col1"></div>
+					</div>
+					<div class="slider__pager"></div>
+					<div class="slide">
+						<div class="slide__info">
+							<h2>Увеличим популярность Вашего сайта</h2>
+							<p>Проведём комплекс работ, чтобы на сайт заходило <br> больше целевых посетителей.</p>
+						</div>	
+						<div class="slide__img is-man">
+							<img src="img/slide-1.png" alt="">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide__info">
+							<h2>Повысим доход от Вашего проекта</h2>
+							<p>Веб-аналитик и специалист по юзабилити обеспечат максимум <br> отдачи от активности посетителей сайта.</p>
+						</div>	
+						<div class="slide__img is-man">
+							<img src="img/slide-1.png" alt="">							
+						</div>					
+					</div>
+					<div class="slide">
+						<div class="slide__info">
+							<h2>Ответим рублём за эффективность</h2>
+							<p>Мы сверхмотивированы достигать поставленные цели, поскольку несём материальную ответственность за конкретные показатели.</p>
+						</div>
+						<div class="slide__img is-magnet">
+							<img src="img/slide-3.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="form">
+					<form action="">
+						<label class="is-name">
+							<input type="text" class="input" placeholder="Имя">
+						</label>
+						<label class="is-number">
+							<input type="text" class="input js-number" placeholder="Телефон">
+						</label>
+						<label class="is-mail">
+							<input type="text" class="input" placeholder="Адрес сайта">
+						</label>
+						<label class="is-website">
+							<input type="text" class="input" placeholder="E-mail ">
+						</label>
+						<button class="submit">начать работу</button>
+					</form>
+				</div>
+			</div>			
+		</div>
+		<!-- end promotion  -->
+		<!-- begin work  -->
+		<div class="heading is-two">
+			<span class="title">КАК ЭТО РАБОТАЕТ</span>
+		</div>
+		<div class="work visibility">
+			<div class="inner">
+				<div class="ppl ppl_top"></div>
+				<div class="ppl ppl_bottom"></div>
+				<div class="steps">
+					<div class="steps__inner">
+						<h2>6 простыхшагов к Вашему идеальному бизнесу</h2>
+						<ul>
+							<li class="step">
+								<div class="step__icon"><span>1</span><i class="is-connect"></i></div>
+								<span class="step__title">Свяжитесь с нами любым удобным способом</span>
+								<div class="step__drop">
+									<ul>
+										<li>заявка на сайте</li>
+										<li>звонок по телефону</li>
+										<li>письмо на email</li>
+										<li>визит в офис</li>
+									</ul>
+								</div>
+							</li>
+							<li class="step">
+								<div class="step__icon"><span>2</span><i class="is-kpi"></i></div>
+								<span class="step__title">Выберите нужные KPI, которые вы хотите получить</span>
+								<div class="step__drop">
+									<ul>
+										<li>покупки и заявки с сайта</li>
+										<li>звонок по указанному номеру</li>
+										<li>посещение целевой страницы</li>
+										<li>регистрация на сайте</li>
+										<li>подписка на рассылку</li>
+										<li>действиея с контентом или другие активности</li>
+									</ul>
+								</div>
+							</li>
+							<li class="step">
+								<div class="step__icon"><span>3</span><i class="is-strategy"></i></div>
+								<span class="step__title">Мы разрабатываем индивидуальную стратегию</span>
+								<div class="step__drop">
+									<ul>
+										<li>проводим технический анализ сайта.</li>
+										<li>анализируем юзабилити.</li>
+										<li>исследуем конверсионные пути средствами веб-аналитики</li>
+										<li>замеряем текущие показатели</li>
+										<li>составляем план работы по достижению выбранных KPI</li>
+									</ul>
+								</div>
+							</li>
+							<li class="step">
+								<div class="step__icon"><span>4</span><i class="is-plan"></i></div>
+								<span class="step__title">Приступаем к реализации плана</span>
+								<div class="step__drop">
+									<p>проводим техническую доработку сайта и оптимизируем контент (тексты, изображения, аудио, видео), чтобы: улучшить позиции сайта в поиске, улучшить продающие свойства страниц, повысить конверсию</p>
+								</div>
+							</li>
+							<li class="step">
+								<div class="step__icon"><span>5</span><i class="is-evaluate"></i></div>
+								<span class="step__title">Оцениваем эффективность</span>
+								<div class="step__drop">
+									<ul>
+										<li>подводим промежуточные итоги</li>
+										<li>оцениваем эффективность каналов и инструментов продвижения</li>
+										<li>в случае необходимости корректируем стратегию</li>
+									</ul>
+								</div>
+							</li>
+							<li class="step">
+								<div class="step__icon"><span>6</span><i class="is-goal"></i></div>
+								<span class="step__title">Цель достигнута</span>
+								<div class="step__drop">
+									<ul>
+										<li>мы фиксируем достижение намеченных KPI</li>
+										<li>Вы — оплачиваете результат</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>					
+				</div>			
+			</div>
+		</div>
+		<!-- end work -->
+		<!-- begin advantages  -->				
+		<div class="heading is-one">
+			<span class="title">ВЫ ПОЛУЧАЕТЕ <span>3</span> ЖЕЛЕЗНЫХ ПРЕИМУЩЕСТВА:</span>
+		</div>		
+		<div class="advantages visibility">
+			<div class="inner">
+				<div class="advantage is-one">
+					<div class="advantage__tail"></div>
+					<div class="advantage__inner-wrap">
+						<div class="advantage__inner">
+							<div class="advantage__icon is-one"></div>
+							<div class="advantage__text">
+								<h3>рост видимости сайта в поисковых системах</h3>
+								<p>Позиции сайта в поисковой выдаче будут идти к верхним строчкам — в топ-10 и выше.</p>
+							</div>
+						</div>
+					</div>
+					<div class="advantage__number-wrap">
+						<div class="advantage__number">1</div>						
+					</div>					
+				</div>
+				<div class="advantage is-two">
+					<div class="advantage__tail"></div>
+					<div class="advantage__inner-wrap">
+						<div class="advantage__inner">
+							<div class="advantage__icon is-two"></div>
+							<div class="advantage__text">
+								<h3>рост числа переходов по целевым запросам</h3>
+								<p>На сайт будет приходить больше заинтересованных посетителей.</p>
+							</div>
+						</div>
+					</div>
+					<div class="advantage__number-wrap">
+						<div class="advantage__number">2</div>						
+					</div>					
+				</div>
+				<div class="advantage is-three">
+					<div class="advantage__tail"></div>
+					<div class="advantage__inner-wrap">
+						<div class="advantage__inner">
+							<div class="advantage__icon is-three"></div>
+							<div class="advantage__text">
+								<h3>РОСТ ЦЕЛЕВОЙ АУДИТОРИИ</h3>
+								<p>Повышение позиций и увеличение трафика приведёт к тому, что лояльная аудитория вырастет и будет совершать только нужные Вам действия — регистрироваться, звонить, подписываться на рассылки, делать заказы и т.д.</p>
+							</div>
+						</div>
+					</div>
+					<div class="advantage__number-wrap">
+						<div class="advantage__number">3</div>						
+					</div>					
+				</div>
+				<div class="result">
+					<span class="result__heading">РЕЗУЛЬТАТ:</span>
+					<span class="result__title">РОСТ ДОХОДНОСТИ ПРОЕКТА</span>
+					<div class="magnet">
+						<div class="magnet__icon"></div>
+						<div class="magnet__cols">
+							<div class="m-col m-col1"></div>
+							<div class="m-col m-col2"></div>
+							<div class="m-col m-col3"></div>
+							<div class="m-col m-col4"></div>
+						</div>						
+					</div>
+					<button class="btn-yellow js-popup-open">УВЕЛИЧИТЬ ДОХОД</button>
+				</div>
+			</div>			
+		</div>
+		<!-- end advantages -->
+		<!-- begin achievement  -->		
+		<div class="heading is-two">
+			<span class="title">НАШИ ДОСТИЖЕНИЯ</span>				
+		</div>
+		<div class="achievement">			
+			<div class="inner">
+				<div class="gallery">
+					<div class="gallery__bottom">
+						<div class="gallery__pager cycle-slideshow"
+							 data-cycle-timeout="0"
+							 data-cycle-fx="carousel"
+							 data-cycle-carousel-visible="5"
+							 data-cycle-carousel-fluid=true
+							 data-allow-wrap="false"
+							 data-cycle-slides="> div"
+							 >
+							<div class="slide">
+								<img src="img/logos/evro.png" alt="">
+							</div>
+							<div class="slide">
+								<img src="img/logos/ulmart.png" alt="">
+							</div>
+							<div class="slide">
+								<img src="img/logos/vtb.png" alt="">
+							</div>
+							<div class="slide">
+								<img src="img/logos/tnb.png" alt="">
+							</div>
+							<div class="slide">
+								<img src="img/logos/kids.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="gallery__top">
+						<a href="#" class="gallery__prev prev"></a>
+						<a href="#" class="gallery__next next"></a>
+						<div class="gallery__slides cycle-slideshow"
+							data-cycle-timeout="0"
+							data-cycle-fx="fade"
+							data-cycle-slides="> div"
+							data-cycle-prev=".gallery__prev"
+							data-cycle-next=".gallery__next"
+							data-cycle-caption=".gallery__conter"
+							data-cycle-auto-height="container"
+							data-cycle-caption-template="{{slideNum}} / {{slideCount}}">
+							<div class="slide">
+								<div class="slide__inner">
+									<h2>ЕВРОСЕТЬ</h2>
+									<div class="slide__row">
+										<div class="slide__box is-25">
+											<div class="slide__text">
+												<p><span class="slide__number">1</span>месяц</p>
+											</div>
+											<h6>сотрудничества</h6>
+										</div>
+										<div class="slide__box is-25">
+											<div class="slide__text">
+												<p><span class="slide__number">1</span></p>
+											</div>
+											<h6>идея</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p><span class="slide__number">4 500 000</span></p>
+											</div>
+											<h6>человек увидели фейковое сообщение о смене логотипа</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p><span class="slide__number">15 000<i class="is-plus"></i></span></p>
+											</div>
+											<h6>вступило в группы</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p><span class="slide__number">2 100<i class="is-zayavka"></i></span></p>
+											</div>
+											<h6>публикаций</h6>
+										</div>
+									</div>	
+								</div>
+								<div class="slide__bottom is-euro">
+									<div class="slide__logo"></div>
+									<h2>Сделали так, что каждая собака знала о смене логотипа «Евросети».</h2>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide__inner">
+									<h2>ЮЛМАРТ</h2>
+									<div class="slide__row">
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p><span class="slide__number">1</span>год</p>
+											</div>
+											<h6>работы</h6>
+										</div>
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p>в<span class="slide__number">2<span class="is-arrs"><i class="is-arr"></i><i class="is-arr"></i></span></span>раза</p>
+											</div>
+											<h6>увеличили количество заказов</h6>
+										</div>
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p>на<span class="slide__number">177<small>%</small><i class="is-trafik"></i></span></p>
+											</div>
+											<h6>увеличение  трафика</h6>
+										</div>
+									</div>									
+								</div>
+								<div class="slide__bottom is-ulmart">
+									<div class="slide__logo"></div>
+									<h2>Каждый 10-й ноутбук в рунете продается с нашей помощью.</h2>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide__inner">
+									<h2>БАНК ВТБ</h2>
+									<div class="slide__row">
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p><span class="slide__number">2</span>года</p>
+											</div>
+											<h6>сотрудничества</h6>
+										</div>
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p>на<span class="slide__number">25<small>%</small><i class="is-trafik"></i></span></p>
+											</div>
+											<h6>увеличили количество заказов</h6>
+										</div>
+										<div class="slide__box is-30">
+											<div class="slide__text">
+												<p>на<span class="slide__number">80<small>%</small><i class="is-trafik"></i></span></p>
+											</div>
+											<h6>увеличели органический трафик</h6>
+										</div>
+									</div>	
+								</div>
+								<div class="slide__bottom">
+									<div class="slide__logo"></div>
+									<p>Еще больше людей узнали не только о финансовой деятельности группы ВТБ, но и о спонсорских и благотворительных программах в области здравоохранения, образования и спорта.</p>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide__inner">
+									<h2>ТРАНСНАЦИОНАЛЬНЫЙ БАНК</h2>
+									<div class="slide__row">
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p><span class="slide__number">2</span>год</p>
+											</div>
+											<h6>сотрудничества</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p>в<span class="slide__number">4<span class="is-arrs"><i class="is-arr"></i><i class="is-arr"></i><i class="is-arr"></i><i class="is-arr"></i></span></span>раза</p>
+											</div>
+											<h6>снизили стоимость клика</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p>на<span class="slide__number">90<small>%</small><i class="is-trafik"></i></span></p>
+											</div>
+											<h6>увеличение  заявок на кредит, подходящих под требования банка</h6>
+										</div>
+										<div class="slide__box is-50">
+											<div class="slide__text">
+												<p>в<span class="slide__number">3<i class="is-zayavka"></i></span></p>
+											</div>
+											<h6>количество обращений по размещению вкладов выросло </h6>
+										</div>
+									</div>	
+								</div>
+								<div class="slide__bottom is-tnb">
+									<div class="slide__logo"></div>
+									<h2>Помогли банку исполнить желания еще большего количества клиентов.</h2>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="slide__inner">
+									<h2>ДЕТИ. Интернет-магазин товаров для детей</h2>
+									<div class="slide__row">
+										<div class="slide__box is-30-0">
+											<div class="slide__text">
+												<p><span class="slide__number">2</span>года</p>
+											</div>
+											<h6>сотрудничества</h6>
+										</div>
+										<div class="slide__box is-30-0">
+											<div class="slide__text">
+												<p>в<span class="slide__number">2,4<span class="is-arrs"><i class="is-arr"></i><i class="is-arr"></i><i class="is-arr is-half"></i></span></span>раза</p>
+											</div>
+											<h6>увеличили количество заказов</h6>
+										</div>
+										<div class="slide__box is-40">
+											<div class="slide__text">
+												<p>на<span class="slide__number">202<small>%</small><i class="is-trafik"></i></span></p>
+											</div>
+											<h6>увеличение  трафика</h6>
+										</div>
+									</div>	
+								</div>
+								<div class="slide__bottom">
+									<div class="slide__logo"></div>
+									<p>В 8 раз больше родителей теперь совершают покупки в интернет-магазине, а сэкономленное время проводят со своими детьми.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!-- end achievement -->
+		<!-- begin awards  -->
+		<div class="heading is-one">
+			<span class="title">НАШИ НАГРАДЫ</span>				
+		</div>
+		<div class="awards">			
+			<div class="s-awards js-awards">
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-race.png" alt="">
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-iso.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-raek.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-bitrix.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-yandex.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-mail.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-google.png" alt="">						
+				</div>
+				<div class="s-awards__slide">
+					<img src="img/trophy/t-vk.png" alt="">						
+				</div>
+			</div>
+			<div class="awards__row">
+				<div class="awards__box is-visitors">
+					<div class="awards__info">
+						<span>263 000 000</span>
+						<p>посетителей мы привлекли на сайты клиентов за последний год</p>
+					</div>
+				</div>
+				<div class="awards__box is-partners">
+					<div class="awards__info">
+						<span>10</span>
+						<p>собственных технологических патентов</p>
+					</div>
+				</div>
+				<div class="awards__box is-awards">
+					<div class="awards__info">
+						<span>RACE AWARDS</span>
+						<p>Лучшее <br>SEO-агентство 2014</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end awards -->
+		<!-- begin about  -->
+		<div class="heading is-two">
+			<span class="title">О КОМПАНИИ</span>				
+		</div>
+		<div class="about">
+			<div class="about__row">
+				<div class="about__box is-big is-universe">
+					<a href="#">
+						<div class="about__info is-right">
+							<h4>СЕРЁЗНАЯ ИСТОРИЯ</h4>
+							<div class="about__text">							
+								<p><span>15</span> лет</p>
+								<p>на рынке</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="about__box is-small is-medals">
+					<a href="#">
+						<div class="about__info">
+							<h4>ПОДТВЕРЖДЁННЫЙ ОПЫТ</h4>
+							<div class="about__text">							
+								<p><span>2400+</span></p>
+								<p>реализованных</p>
+								<p>проектов</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="about__box is-small is-office">
+					<a href="#">
+						<div class="about__info">
+							<h4>БОЛЬШАЯ КОМАНДА</h4>
+							<div class="about__text">							
+								<p><span>200+</span></p>
+								<p>сертифицированных</p>
+								<p>специалистов</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="about__box is-big is-agoltel">
+					<a href="#">
+						<div class="about__info is-left">
+							<h4>СТАНДАРТЫ КАЧЕСТВА</h4>
+							<div class="about__text">							
+								<p><span>11</span></p>
+								<p>запатентованных</p>
+								<p>технологий</p>
+								<hr />							
+								<p>ISO 9001:2011</p>
+								<h6>Европейский сертификат</h6>
+								<h6>стандартов качества</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- end about -->
+		<!-- begin contacts  -->
+		<div class="heading is-one">
+			<span class="title">КОНТАКТЫ</span>				
+		</div>
+		<div class="contacts">			
+			<div id="map_canvas" class="map"></div>
+			<div class="contacts__inner">
+				<div class="contacts__row">
+					<div class="contacts__block">
+						<p class="is-phone"><i></i>+7 (495) 256-24-31, 8 800 333-54-72</p>
+						<p class="is-date"><i></i>пн. — пт, с 10:00 до 19:00</p>
+						<p class="is-marker"><i></i>119049, Москва, ул. Делегатская, дом 5</p>
+						<p class="is-mail"><i></i>info@optimism.ru</p>
+					</div>
+				</div>			
+			</div>			
+		</div>
+		<!-- end contacts -->
+	</section>
+	<!-- begin footer  -->
+	<footer class="footer">
+		<div class="footer__top">
+			<div class="footer__form">
+				<form action="">
+					<div class="footer__row">
+						<label class="is-name">
+							<input type="text" class="input" placeholder="Имя">
+						</label>
+						<label class="is-number">
+							<input type="text" class="input js-number" placeholder="Телефон">
+						</label>
+						<label class="is-mail">
+							<input type="text" class="input" placeholder="Адрес сайта">
+						</label>
+						<label class="is-website">
+							<input type="text" class="input" placeholder="E-mail ">
+						</label>
+					</div>					
+					<button class="btn-yellow">НАЧАТЬ РАБОТУ</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer__bot">
+			<div class="footer__inner">
+				<p>КОМПЛЕКСНЫЙ ИНТЕРНЕТМАРКЕТИНГ Группа компаний “Элемент”, 2000-2015</p>
+				<a href="#" class="element">
+					<img src="img/element.png" alt="">
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
 </div>
 <!-- END out-->
+<!-- begin popup  -->
+<div class="js-popup popup-wrap">
+	<div class="popup">
+		<div class="popup__form">
+			<a href="#" class="popup__close js-popup-close"></a>
+			<form action="">
+				<p>Оставьте заявку на бесплатный звонок и мы Вам перезвоним</p>
+				<label class="is-name">
+					<input type="text" class="input" placeholder="Имя">
+				</label>
+				<label class="is-number">
+					<input type="text" class="input js-number" placeholder="Телефон">
+				</label>
+				<label class="is-mail">
+					<input type="text" class="input" placeholder="Адрес сайта">
+				</label>
+				<label class="is-website">
+					<input type="text" class="input" placeholder="E-mail ">
+				</label>
+				<button class="popup__submit">ОСТАВИТЬ ЗАЯВКУ</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- end popup -->
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+<script type="text/javascript"> 
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(55.774824,37.612028);
+    var center = new google.maps.LatLng(55.7746912,37.6196133);
+    var myOptions = {
+      zoom: 16,
+      center: center,
+      disableDefaultUI: true,
+      scrollwheel: false,
+      zoomControl: true,
+      zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.DEFAULT,
+        position: google.maps.ControlPosition.RIGHT_TOP
+      },
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+ 
+ 	var img = 'img/marker.png';
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        icon: img
+    });
+  }
+ 
+</script> 
 </body>
 </html>
