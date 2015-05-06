@@ -45,7 +45,7 @@
 		&:hover
 			text-decoration: underline
 
-//heading
+
 .heading
 	padding: 33px 0  
 	text-align: center
@@ -73,7 +73,7 @@
 		+border-radius(50%)  
 		display: inline-block
 		margin: 0 3px 
-//promotion
+
 .promotion
 	background: #f7e357 
 	position: relative
@@ -144,6 +144,7 @@
 	float: left
 	width: 640px
 	position: relative
+	min-height: 350px 
 	&__pager
 		font-size: 0
 		position: absolute
@@ -184,7 +185,7 @@
 			padding: 20px 0 0 
 			margin: 0 70px 
 			
-//columns
+
 +keyframes(height1)
 	from
 		height: 30%
@@ -262,7 +263,7 @@
 			&:before
 				+animation(height7 0.5s linear 0s infinite alternate)
 		
-//form
+
 .form
 	position: relative
 	float: right
@@ -303,12 +304,10 @@
 	.submit
 		margin: 1px 0 0 
 		
-//work
+
 .work
 	min-height: 180px 
 	padding: 90px 0 100px 
-	.inner
-		// background: #f7e357 
 	.ppl
 		position: absolute
 		left: 0
@@ -801,7 +800,7 @@
 			right: 12px
 			+rotate(-93)
 
-//gallery
+
 .gallery
 	padding: 39px 0 130px
 	&__bottom
@@ -923,7 +922,7 @@
 					font-size: 36px
 			&__logo
 				float: left
-				+svg(slide-logo, 74, 52)
+				+svg(slide-logo2, 74, 52)
 				margin: 0 15px 0 0
 			&__bottom
 				max-width: 659px
@@ -1038,8 +1037,9 @@
 		img
 			display: inline-block
 			vertical-align: bottom
-			
-//about
+			max-width: 100%
+			max-height: 100%
+
 .about
 	max-width: 960px
 	margin: 0 auto

@@ -1,9 +1,5 @@
 head.ready(function() {
 
-	// $(document).on("click", function(){
-	// 	$(".js-popup").hide();
-	// });
-
 	function scrollFixedElements() {
 	    var scroll_left = $(this).scrollLeft();
 	    $(".fixed-element").css({
@@ -14,20 +10,9 @@ head.ready(function() {
 	$(window).scroll(function(){
 	    scrollFixedElements()
 	});
-	// function Time() {
-	//     mytime = setTimeout(function(){ 
-	// 		$('body').addClass('is-animate');
-	//     },1000);
-	// };
 
-	//input mask
 	$('.js-number').inputmask("mask", {"mask": "+ 9(999) 999-99-99"});
 
-	//advantages
-	// $('.advantages').on('click', function() {
-	// 	$(this).toggleClass('is-active');
-	// });
-	// $('.advantages').addClass('is-active');
 
 	function visibility(){
 		var window_top = $(window).scrollTop();
@@ -51,7 +36,6 @@ head.ready(function() {
 		visibility();
 	});
 
-	//galleries synchronize (ITEM)
 	var slideshows = $('.cycle-slideshow').on('cycle-next cycle-prev', function(e, opts) {
 	  slideshows.not(this).cycle('goto', opts.currSlide);
 	});
@@ -63,13 +47,11 @@ head.ready(function() {
 	});
 
 	$('.js-awards').flickity({
-	  // options
 	  cellAlign: 'left',
 	  wrapAround: true,
 	  contain: true
 	});
 
-	//popup
 	$('.js-popup-open').on('click', function() {
 		$('.js-popup').addClass('is-active');
 		return false;
