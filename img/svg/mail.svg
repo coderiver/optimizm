@@ -2,10 +2,11 @@
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20.1 14.1" enable-background="new 0 0 20.1 14.1" xml:space="preserve">
+	 viewBox="0 0 29 17" enable-background="new 0 0 29 17" xml:space="preserve">
 <g>
-	<path fill="none" stroke="#999999" stroke-width="0.1421" stroke-miterlimit="22.9256" d="M1,0.1h18.2c0.5,0,0.9,0.4,0.9,0.9v12.2
-		c0,0.5-0.4,0.9-0.9,0.9H1c-0.5,0-0.9-0.4-0.9-0.9V1C0.1,0.5,0.5,0.1,1,0.1L1,0.1z"/>
-	<polyline fill="none" stroke="#999999" stroke-width="0.1422" stroke-miterlimit="22.9256" points="0.4,0.3 10.1,7.1 19.9,0.5 	"/>
+	<path fill="none" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" d="M1.7,0.5h25.5
+		c0.7,0,1.2,0.5,1.2,1v13.9c0,0.6-0.6,1-1.2,1H1.7c-0.7,0-1.2-0.5-1.2-1V1.5C0.5,1,1.1,0.5,1.7,0.5L1.7,0.5z"/>
+	<polyline fill="none" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" points="
+		0.9,0.8 14.5,8.5 28.3,1 	"/>
 </g>
 </svg>

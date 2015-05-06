@@ -517,10 +517,10 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .contacts__block { position: absolute; top: 115px; right: 15px; padding: 30px; width: 380px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 3; background: #f8e667; }
 .contacts__block p { font-family: "BlissPro-ExtraLight", Arial, sans-serif; font-size: 18px; line-height: 2; color: #232323; padding: 0 0 0 30px; position: relative; }
 .contacts__block p i { position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
-.contacts__block p.is-phone i { background: url('../img/icons-s23f398a56b.png') 0 -67px no-repeat; width: 12px; height: 17px; }
-.contacts__block p.is-date i { background: url('../img/icons-s23f398a56b.png') 0 0 no-repeat; width: 15px; height: 13px; }
-.contacts__block p.is-marker i { background: url('../img/icons-s23f398a56b.png') 0 -41px no-repeat; width: 10px; height: 16px; }
-.contacts__block p.is-mail i { background: url('../img/icons-s23f398a56b.png') 0 -23px no-repeat; width: 14px; height: 8px; }
+.contacts__block p.is-phone i { background: url("../img/svg/phone.svg") no-repeat 0 0; -moz-background-size: 12px 17px; -o-background-size: 12px 17px; -webkit-background-size: 12px 17px; background-size: 12px 17px; width: 12px; height: 17px; display: inline-block; }
+.contacts__block p.is-date i { background: url("../img/svg/date.svg") no-repeat 0 0; -moz-background-size: 14px 13px; -o-background-size: 14px 13px; -webkit-background-size: 14px 13px; background-size: 14px 13px; width: 14px; height: 13px; display: inline-block; }
+.contacts__block p.is-marker i { background: url("../img/svg/marker.svg") no-repeat 0 0; -moz-background-size: 10px 16px; -o-background-size: 10px 16px; -webkit-background-size: 10px 16px; background-size: 10px 16px; width: 10px; height: 16px; display: inline-block; }
+.contacts__block p.is-mail i { background: url("../img/svg/mail.svg") no-repeat 0 0; -moz-background-size: 14px 8px; -o-background-size: 14px 8px; -webkit-background-size: 14px 8px; background-size: 14px 8px; width: 14px; height: 8px; display: inline-block; }
 
 .flickity-enabled { position: relative; }
 .flickity-enabled:focus { outline: none; }
