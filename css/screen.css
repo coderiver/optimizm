@@ -104,15 +104,20 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .slider__pager span.cycle-pager-active { background: white; }
 
 @-moz-keyframes cash { 0% { right: 0; }
-  100% { right: 100%; } }
+  70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
 @-webkit-keyframes cash { 0% { right: 0; }
-  100% { right: 100%; } }
+  70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
 @-o-keyframes cash { 0% { right: 0; }
-  100% { right: 100%; } }
+  70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
 @-ms-keyframes cash { 0% { right: 0; }
-  100% { right: 100%; } }
+  70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
 @keyframes cash { 0% { right: 0; }
-  100% { right: 100%; } }
+  70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
 .slide { visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
 .slide.cycle-slide-active { visibility: visible; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
 .slide__info { padding: 25px 60px; }
