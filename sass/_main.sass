@@ -186,82 +186,83 @@
 	+animation(cash 1.2s linear 0s infinite) 
 =cash7
 	+animation(cash 1.2s linear 0.3s infinite) 
-.slide
-	visibility: hidden
-	+opacity(0)
-	&.cycle-slide-active
-		visibility: visible
-		+opacity(1)
-	&__info
-		padding: 25px 60px 
-	h2
-		margin-bottom: 10px
-	p
-		+exlight
-		font-size: 18px
-		line-height: 24px
-		color: #232323 
-	&__img
-		+clr
-		img
-			max-width: 100%
-			display: block
-		&.is-man
-			max-width: 330px
-			margin: 0 50px 
-		&.is-magnet
-			max-width: 455px
-			padding: 20px 0 0 
-			margin: 0 70px 
-	&__magnit
-		+s(slide-magnit)
-		float: left
-		position: relative
-		z-index: 5
-	&__diagram
-		+s(slide-diagram)
-		float: right	
-		margin-top: 9px
-		position: relative
-		z-index: 5
-	&__moneys
-		padding: 0 75px 0 175px
-		height: 155px
-		position: relative
-		z-index: 3 
-		.cash
+.slider
+	.slide
+		visibility: hidden
+		+opacity(0)
+		&.cycle-slide-active
+			visibility: visible
+			+opacity(1)
+		&__info
+			padding: 25px 60px 
+		h2
+			margin-bottom: 10px
+		p
+			+exlight
+			font-size: 18px
+			line-height: 24px
+			color: #232323 
+		&__img
+			+clr
+			img
+				max-width: 100%
+				display: block
+			&.is-man
+				max-width: 330px
+				margin: 0 50px 
+			&.is-magnet
+				max-width: 455px
+				padding: 20px 0 0 
+				margin: 0 70px 
+		&__magnit
+			+s(slide-magnit)
+			float: left
 			position: relative
-	&__money
-		+s(money)
-		position: absolute
-		&.is-one
-			top: 27px
-			right: 90px
-			+cash1
-		&.is-two
-			top: 34px
-			right: 160px
-			+cash2
-		&.is-three
-			top: 62px
-			right: 28px
-			+cash3
-		&.is-four
-			top: 65px
-			right: 110px
-			+cash4
-		&.is-five
-			top: 112px
-			right: 60px
-			+cash5
-		&.is-six
-			top: 113px
-			right: 145px
-			+cash6
-		&.is-seven
-			top: 130px
-			right: 100px 
-			+cash7
+			z-index: 5
+		&__diagram
+			+s(slide-diagram)
+			float: right	
+			margin-top: 9px
+			position: relative
+			z-index: 5
+		&__moneys
+			padding: 0 75px 0 175px
+			height: 155px
+			position: relative
+			z-index: 3 
+			.cash
+				position: relative
+		&__money
+			+s(money)
+			position: absolute
+			&.is-one
+				top: 27px
+				right: 90px
+				+cash1
+			&.is-two
+				top: 34px
+				right: 160px
+				+cash2
+			&.is-three
+				top: 62px
+				right: 28px
+				+cash3
+			&.is-four
+				top: 65px
+				right: 110px
+				+cash4
+			&.is-five
+				top: 112px
+				right: 60px
+				+cash5
+			&.is-six
+				top: 113px
+				right: 145px
+				+cash6
+			&.is-seven
+				top: 130px
+				right: 100px 
+				+cash7
 +keyframes(height1)
 	from
 		height: 30%
@@ -1172,6 +1173,7 @@
 		+opacity(0)
 		visibility: hidden
 		+transition(all 0.3s)
+		margin: 0 auto
 		&.is-left
 			float: left
 		&.is-right

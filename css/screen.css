@@ -118,28 +118,28 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 @keyframes cash { 0% { right: 0; }
   70% { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
   100% { right: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; } }
-.slide { visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
-.slide.cycle-slide-active { visibility: visible; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
-.slide__info { padding: 25px 60px; }
-.slide h2 { margin-bottom: 10px; }
-.slide p { font-family: "BlissPro-ExtraLight", Arial, sans-serif; font-size: 18px; line-height: 24px; color: #232323; }
-.slide__img { *zoom: 1; }
-.slide__img:after { content: " "; display: table; clear: both; }
-.slide__img img { max-width: 100%; display: block; }
-.slide__img.is-man { max-width: 330px; margin: 0 50px; }
-.slide__img.is-magnet { max-width: 455px; padding: 20px 0 0; margin: 0 70px; }
-.slide__magnit { background: url('../img/icons-s7ff8c004bd.png') 0 -1613px no-repeat; width: 198px; height: 155px; float: left; position: relative; z-index: 5; }
-.slide__diagram { background: url('../img/icons-s7ff8c004bd.png') 0 -1466px no-repeat; width: 109px; height: 137px; float: right; margin-top: 9px; position: relative; z-index: 5; }
-.slide__moneys { padding: 0 75px 0 175px; height: 155px; position: relative; z-index: 3; }
-.slide__moneys .cash { position: relative; }
-.slide__money { background: url('../img/icons-s7ff8c004bd.png') 0 -625px no-repeat; width: 24px; height: 11px; position: absolute; }
-.slide__money.is-one { top: 27px; right: 90px; -webkit-animation: cash 1.2s linear 0.5s infinite; -moz-animation: cash 1.2s linear 0.5s infinite; -ms-animation: cash 1.2s linear 0.5s infinite; -o-animation: cash 1.2s linear 0.5s infinite; animation: cash 1.2s linear 0.5s infinite; }
-.slide__money.is-two { top: 34px; right: 160px; -webkit-animation: cash 1.2s linear 0s infinite; -moz-animation: cash 1.2s linear 0s infinite; -ms-animation: cash 1.2s linear 0s infinite; -o-animation: cash 1.2s linear 0s infinite; animation: cash 1.2s linear 0s infinite; }
-.slide__money.is-three { top: 62px; right: 28px; -webkit-animation: cash 1.2s linear 0.3s infinite; -moz-animation: cash 1.2s linear 0.3s infinite; -ms-animation: cash 1.2s linear 0.3s infinite; -o-animation: cash 1.2s linear 0.3s infinite; animation: cash 1.2s linear 0.3s infinite; }
-.slide__money.is-four { top: 65px; right: 110px; -webkit-animation: cash 1.2s linear 0.9s infinite; -moz-animation: cash 1.2s linear 0.9s infinite; -ms-animation: cash 1.2s linear 0.9s infinite; -o-animation: cash 1.2s linear 0.9s infinite; animation: cash 1.2s linear 0.9s infinite; }
-.slide__money.is-five { top: 112px; right: 60px; -webkit-animation: cash 1.2s linear 0.7s infinite; -moz-animation: cash 1.2s linear 0.7s infinite; -ms-animation: cash 1.2s linear 0.7s infinite; -o-animation: cash 1.2s linear 0.7s infinite; animation: cash 1.2s linear 0.7s infinite; }
-.slide__money.is-six { top: 113px; right: 145px; -webkit-animation: cash 1.2s linear 0s infinite; -moz-animation: cash 1.2s linear 0s infinite; -ms-animation: cash 1.2s linear 0s infinite; -o-animation: cash 1.2s linear 0s infinite; animation: cash 1.2s linear 0s infinite; }
-.slide__money.is-seven { top: 130px; right: 100px; -webkit-animation: cash 1.2s linear 0.3s infinite; -moz-animation: cash 1.2s linear 0.3s infinite; -ms-animation: cash 1.2s linear 0.3s infinite; -o-animation: cash 1.2s linear 0.3s infinite; animation: cash 1.2s linear 0.3s infinite; }
+.slider .slide { visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+.slider .slide.cycle-slide-active { visibility: visible; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+.slider .slide__info { padding: 25px 60px; }
+.slider .slide h2 { margin-bottom: 10px; }
+.slider .slide p { font-family: "BlissPro-ExtraLight", Arial, sans-serif; font-size: 18px; line-height: 24px; color: #232323; }
+.slider .slide__img { *zoom: 1; }
+.slider .slide__img:after { content: " "; display: table; clear: both; }
+.slider .slide__img img { max-width: 100%; display: block; }
+.slider .slide__img.is-man { max-width: 330px; margin: 0 50px; }
+.slider .slide__img.is-magnet { max-width: 455px; padding: 20px 0 0; margin: 0 70px; }
+.slider .slide__magnit { background: url('../img/icons-s7ff8c004bd.png') 0 -1613px no-repeat; width: 198px; height: 155px; float: left; position: relative; z-index: 5; }
+.slider .slide__diagram { background: url('../img/icons-s7ff8c004bd.png') 0 -1466px no-repeat; width: 109px; height: 137px; float: right; margin-top: 9px; position: relative; z-index: 5; }
+.slider .slide__moneys { padding: 0 75px 0 175px; height: 155px; position: relative; z-index: 3; }
+.slider .slide__moneys .cash { position: relative; }
+.slider .slide__money { background: url('../img/icons-s7ff8c004bd.png') 0 -625px no-repeat; width: 24px; height: 11px; position: absolute; }
+.slider .slide__money.is-one { top: 27px; right: 90px; -webkit-animation: cash 1.2s linear 0.5s infinite; -moz-animation: cash 1.2s linear 0.5s infinite; -ms-animation: cash 1.2s linear 0.5s infinite; -o-animation: cash 1.2s linear 0.5s infinite; animation: cash 1.2s linear 0.5s infinite; }
+.slider .slide__money.is-two { top: 34px; right: 160px; -webkit-animation: cash 1.2s linear 0s infinite; -moz-animation: cash 1.2s linear 0s infinite; -ms-animation: cash 1.2s linear 0s infinite; -o-animation: cash 1.2s linear 0s infinite; animation: cash 1.2s linear 0s infinite; }
+.slider .slide__money.is-three { top: 62px; right: 28px; -webkit-animation: cash 1.2s linear 0.3s infinite; -moz-animation: cash 1.2s linear 0.3s infinite; -ms-animation: cash 1.2s linear 0.3s infinite; -o-animation: cash 1.2s linear 0.3s infinite; animation: cash 1.2s linear 0.3s infinite; }
+.slider .slide__money.is-four { top: 65px; right: 110px; -webkit-animation: cash 1.2s linear 0.9s infinite; -moz-animation: cash 1.2s linear 0.9s infinite; -ms-animation: cash 1.2s linear 0.9s infinite; -o-animation: cash 1.2s linear 0.9s infinite; animation: cash 1.2s linear 0.9s infinite; }
+.slider .slide__money.is-five { top: 112px; right: 60px; -webkit-animation: cash 1.2s linear 0.7s infinite; -moz-animation: cash 1.2s linear 0.7s infinite; -ms-animation: cash 1.2s linear 0.7s infinite; -o-animation: cash 1.2s linear 0.7s infinite; animation: cash 1.2s linear 0.7s infinite; }
+.slider .slide__money.is-six { top: 113px; right: 145px; -webkit-animation: cash 1.2s linear 0s infinite; -moz-animation: cash 1.2s linear 0s infinite; -ms-animation: cash 1.2s linear 0s infinite; -o-animation: cash 1.2s linear 0s infinite; animation: cash 1.2s linear 0s infinite; }
+.slider .slide__money.is-seven { top: 130px; right: 100px; -webkit-animation: cash 1.2s linear 0.3s infinite; -moz-animation: cash 1.2s linear 0.3s infinite; -ms-animation: cash 1.2s linear 0.3s infinite; -o-animation: cash 1.2s linear 0.3s infinite; animation: cash 1.2s linear 0.3s infinite; }
 
 @-moz-keyframes height1 { from { height: 30%; }
   to { height: 55%; } }
@@ -490,7 +490,7 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .about__box.is-medals { background-image: url(../img/medali.jpg); }
 .about__box.is-office { background-image: url(../img/office.jpg); }
 .about__box.is-agoltel { background-image: url(../img/agoltel.jpg); }
-.about__info { height: 100%; width: 240px; text-align: center; z-index: 2; position: relative; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; visibility: hidden; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.about__info { height: 100%; width: 240px; text-align: center; z-index: 2; position: relative; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; visibility: hidden; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; margin: 0 auto; }
 .about__info.is-left { float: left; }
 .about__info.is-right { float: right; }
 .about__info h4 { font-family: "BlissPro-Bold", Arial, sans-serif; font-size: 22px; line-height: 1; color: #f7e357; height: 150px; padding: 30px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: 95%; margin: 0 auto; }
