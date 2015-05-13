@@ -13,6 +13,21 @@ head.ready(function() {
 
 	$('.js-number').inputmask("mask", {"mask": "+ 9(999) 999-99-99"});
 
+	 $('input[name="name"]').on('keyup', function(){
+	    	var value = $(this).val();
+		    var reg = /[^\sa-zA-Zа-яА-Я]$/i;
+		    var regFinal = /([a-zA-Zа-яА-Я]{2,})$/i;
+		    if (reg.test(value)) {
+		        value = value.replace(reg, '');
+		        $(this).val(value);
+		    }
+		    if (regFinal.test(value)) {
+		    	$(this).removeClass('has-error');
+		    } else {
+	    	    $(this).addClass('has-error');
+		    }
+	    });
+
 
 	function visibility(){
 		var window_top = $(window).scrollTop();

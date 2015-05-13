@@ -162,8 +162,7 @@
 			margin: 0 4.5px 
 			+transition(all 0.3s)
 			&.cycle-pager-active
-				background: #fff 
-				
+				background: #fff 			
 +keyframes(cash)
 	0%
 		right: 0
@@ -190,11 +189,13 @@
 	.slide
 		visibility: hidden
 		+opacity(0)
+		min-height: 391px 
 		&.cycle-slide-active
 			visibility: visible
 			+opacity(1)
 		&__info
 			padding: 25px 60px 
+			min-height: 88px 
 		h2
 			margin-bottom: 10px
 		p
@@ -372,7 +373,7 @@
 			&:before
 				+s(mail)
 				left: 15px
-				margin-top: -3px
+				margin-top: -4px
 		&.is-website
 			&:before
 				+s(website)
@@ -401,12 +402,12 @@
 		&_top
 			top: 0
 			height: 148px
-			&:before, &:after
-				top: -71px
 			&:before
-				+s(ppl-top-left)
+				+s(ppl-top-left)				
+				top: -71px
 			&:after
 				+s(ppl-top-right)
+				top: -63px 
 		&_bottom
 			bottom: 0
 			height: 151px
@@ -438,7 +439,7 @@
 			+scale(1)
 .steps
 	text-align: center
-	padding: 105px 0 20px
+	padding: 105px 45px 20px
 	position: relative 
 	max-width: 850px
 	margin: 0 auto 
@@ -892,6 +893,8 @@
 			&:hover
 				+gray-zero
 				+scale(1)
+			&.cycle-slide-active
+				+gray-zero
 	&__top
 		width: 875px
 		margin: 0 auto
@@ -1257,7 +1260,7 @@
 			&:before
 				+s(mail)
 				left: 15px
-				margin-top: -3px
+				margin-top: -4px
 		&.is-website
 			&:before
 				+s(website)
