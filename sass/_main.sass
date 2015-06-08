@@ -1165,6 +1165,10 @@
 			bottom: 0
 			background-color: #00BFFF
 			+opacity(0.63) 
+			+transition(all 0.3s)
+			+r(1024)
+				background: #2d2d2d
+				+opacity(0.61) 
 		&:hover
 			&:before				
 				background: #2d2d2d
@@ -1194,10 +1198,13 @@
 		text-align: center
 		z-index: 2
 		position: relative
-		+opacity(0)
-		visibility: hidden
+		// +opacity(0)
+		// visibility: hidden
 		+transition(all 0.3s)
 		margin: 0 auto
+		+r(1024)
+			visibility: visible
+			+opacity(1)
 		&.is-left
 			float: left
 		&.is-right
