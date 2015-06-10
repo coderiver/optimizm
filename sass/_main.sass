@@ -176,6 +176,13 @@
 	100%
 		right: 100%
 		+opacity(0)
++keyframes(ppls)
+	from
+		+opacity(0)
+		visibility: hidden
+	to
+		+opacity(1)
+		visibility: visible
 =cash1
 	+animation(cash 1.2s linear 0.5s infinite) 
 =cash2
@@ -190,6 +197,8 @@
 	+animation(cash 1.2s linear 0s infinite) 
 =cash7
 	+animation(cash 1.2s linear 0.3s infinite) 
+=ppls
+	+animation(ppls 1s linear) 
 .slider
 	.slide
 		visibility: hidden
@@ -198,6 +207,12 @@
 		&.cycle-slide-active
 			visibility: visible
 			+opacity(1)
+			.slide__img
+				&.is-man-ppls
+					img
+						&.is-ppls
+							visibility: visible
+							+opacity(1)
 		&__info
 			padding: 25px 60px 
 			min-height: 88px 
@@ -223,13 +238,22 @@
 				img				
 					display: inline-block
 					vertical-align: bottom
-			&.is-ppls
+			&.is-man-ppls
 				max-width: 330px
 				margin: 0 50px 
-				font-size: 0
-				text-align: center
+				+vertical
+				position: relative
 				img				
 					display: inline-block
+					vertical-align: bottom
+					&.is-ppls
+						position: absolute
+						top: 0
+						left: 50%
+						margin-left: -165px 
+						visibility: hidden
+						+opacity(0)
+						+transition(all 1s 1s)
 			&.is-magnet
 				max-width: 455px
 				padding: 20px 0 0 
@@ -1176,6 +1200,8 @@
 			.about__info
 				visibility: visible
 				+opacity(1)
+				p, h6
+					color: #fff 
 		a
 			display: block
 			position: relative
@@ -1223,8 +1249,11 @@
 			+exbold
 			font-size: 23.54px
 			line-height: 1.1
-			color: #fff 
+			color: gray
 			text-align: left
+			+transition(color 0.3s)
+			+r(1024)
+				color: #fff 
 			span
 				font-size: 64.21px
 		h6
