@@ -115,4 +115,15 @@ head.ready(function() {
 	        }
 	    });
 	}
+	//steps
+	$('.step').on('click', function() {
+		if ($(this).hasClass('is-active')) {
+			$(this).removeClass('is-active');
+			$('.step').removeClass('is-active');
+		}
+		else {
+			$('.step').removeClass('is-active');
+			$(this).addClass('is-active');
+		};		
+	});
 });

@@ -279,12 +279,12 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .steps h2 { margin-bottom: 60px; }
 
 .step { display: inline-block; vertical-align: top; padding: 0 35px; width: 33.3%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: relative; margin-bottom: 90px; }
-.step:hover .step__icon { background: deepskyblue; border-color: deepskyblue; }
-.step:hover .step__icon i { background: none; }
-.step:hover .step__icon i:before { display: block; }
-.step:hover .step__icon span { border-color: deepskyblue; background: white; color: deepskyblue; }
-.step:hover .step__drop { display: block; }
-.step:hover .step__title { color: white; background: deepskyblue; }
+.step:hover .step__icon, .step.is-active .step__icon { background: deepskyblue; border-color: deepskyblue; }
+.step:hover .step__icon i, .step.is-active .step__icon i { background: none; }
+.step:hover .step__icon i:before, .step.is-active .step__icon i:before { display: block; }
+.step:hover .step__icon span, .step.is-active .step__icon span { border-color: deepskyblue; background: white; color: deepskyblue; }
+.step:hover .step__drop, .step.is-active .step__drop { display: block; }
+.step:hover .step__title, .step.is-active .step__title { color: white; background: deepskyblue; }
 .step__icon { width: 84px; height: 84px; border: 2px solid #3f3d35; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; margin: 0 auto 9px; text-align: center; font-size: 0; position: relative; }
 .step__icon:before { content: ""; display: inline-block; vertical-align: middle; width: 0; height: 100%; }
 .step__icon span { position: absolute; top: -5px; left: 5px; font-family: "BlissPro-Heavy", Arial, sans-serif; font-size: 20px; color: #3f3d35; border: 2px solid #3f3d35; background: #f7e357; width: 20px; line-height: 20px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; z-index: 2; text-align: center; }
@@ -516,7 +516,7 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .about__info.is-left { float: left; }
 .about__info.is-right { float: right; }
 .about__info h4 { font-family: "BlissPro-Bold", Arial, sans-serif; font-size: 22px; line-height: 1; color: #f7e357; height: 150px; padding: 30px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: 95%; margin: 0 auto; }
-.about__info p, .about__info h6 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 23.54px; line-height: 1.1; color: gray; text-align: left; -moz-transition: color 0.3s; -o-transition: color 0.3s; -webkit-transition: color 0.3s; transition: color 0.3s; }
+.about__info p, .about__info h6 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 23.54px; line-height: 1.1; color: #eeeeee; text-align: left; -moz-transition: color 0.3s; -o-transition: color 0.3s; -webkit-transition: color 0.3s; transition: color 0.3s; }
 @media only screen and (max-width: 1024px) { .about__info p, .about__info h6 { color: white; } }
 .about__info p span, .about__info h6 span { font-size: 64.21px; }
 .about__info h6 { font-size: 18px; }
