@@ -511,12 +511,13 @@ h3 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 20px; line
 .about__box.is-medals { background-image: url(../img/medali.jpg); }
 .about__box.is-office { background-image: url(../img/office.jpg); }
 .about__box.is-agoltel { background-image: url(../img/agoltel.jpg); }
+.about__box.is-agoltel .about__text { padding: 0 0 0 20px; }
 .about__info { height: 100%; width: 240px; text-align: center; z-index: 2; position: relative; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; margin: 0 auto; }
 @media only screen and (max-width: 1024px) { .about__info { visibility: visible; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; } }
 .about__info.is-left { float: left; }
 .about__info.is-right { float: right; }
 .about__info h4 { font-family: "BlissPro-Bold", Arial, sans-serif; font-size: 22px; line-height: 1; color: #f7e357; height: 150px; padding: 30px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: 95%; margin: 0 auto; }
-.about__info p, .about__info h6 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 23.54px; line-height: 1.1; color: #eeeeee; text-align: left; -moz-transition: color 0.3s; -o-transition: color 0.3s; -webkit-transition: color 0.3s; transition: color 0.3s; }
+.about__info p, .about__info h6 { font-family: "BlissPro-ExtraBold", Arial, sans-serif; font-size: 23.54px; line-height: 1.1; color: #314d69; text-align: left; -moz-transition: color 0.3s; -o-transition: color 0.3s; -webkit-transition: color 0.3s; transition: color 0.3s; }
 @media only screen and (max-width: 1024px) { .about__info p, .about__info h6 { color: white; } }
 .about__info p span, .about__info h6 span { font-size: 64.21px; }
 .about__info h6 { font-size: 18px; }
